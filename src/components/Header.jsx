@@ -1,7 +1,7 @@
 const Header = ({ filtrarProdutos, ordenarProdutos, pesquisarProdutos }) => {
     return (
-        <header className="flex items-center justify-between px-4 lg:px-15 py-4 bg-orange-500">
-            <div className="eb-4 md:md0">
+        <header className="lg:flex items-center justify-between px-15 lg:px-15 py-4 bg-orange-500">
+            <div className="mb-4 lg:md-0">
                 <input
                     type="text"
                     placeholder="Digite o nome do produto"
